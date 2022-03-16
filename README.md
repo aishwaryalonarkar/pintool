@@ -4,12 +4,19 @@ Pintool to detect Overflow attacks in C
 Steps to Execute:-
  1. make
  2. To run the attacks in testcases
+ 
     cd testcases
+    
     cd attacks
+    
     ./run.sh
+    
  3. To run the benign in testcases
+   
     cd testcases
+    
     cd benign
+    
     ./run.sh
     
 In this project I have Monitored user inputs and marked it as tainted in the UT_Hash which are Fgets, gets and argv
